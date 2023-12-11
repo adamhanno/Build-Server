@@ -12,4 +12,3 @@ COPY . .
 EXPOSE 8080 
 #Command to start your Node.js app
 CMD ["node", "server.js"]
-
