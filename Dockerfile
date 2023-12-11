@@ -5,7 +5,7 @@ WORKDIR /app
 #Copy the package.json and package-lock.json files to the working directory
 COPY package*.json ./ 
 #Install dependencies
-RUN npm install 
+npm init
 #Copy all other source code to the working directory
 COPY . . 
 #Expose the port your app runs on
